@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fixtureTableId">
+
+    <TableRow
+        android:id="@+id/titlerowId"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_width="210dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Fixture"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:id="@+id/team1Id"
+        android:background="#78c785">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="192dp"
+            android:layout_height="25dp"
+            android:text="GROUP C"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="25dp"
+            android:text="GROUP D"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+
+
+</TableLayout>
+    <Button
+        android:id="@+id/nextbuttonId"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginTop="500dp"
+        android:text="Next"
+        android:textStyle="bold"
+        android:background="@color/colorYellow"
+        />
+
+</FrameLayout>

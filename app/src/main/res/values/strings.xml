@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Game Scheduler</string>
+
+    <string-array name="game_lists">
+        <item> Select </item>
+        <item> Fifa 19 </item>
+        <item> Cricket 19 </item>
+        <item>Not Available</item>
+    </string-array>
+</resources>

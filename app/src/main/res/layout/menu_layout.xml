@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackgradient"
+    android:orientation="horizontal">
+<ListView
+    android:id="@+id/playerListview"
+    android:layout_marginTop="120dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:text="Player Select"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/addbuttonId"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="120dp"
+        android:layout_height="220dp"
+        android:background="@null"
+        android:src="@drawable/add"
+        />
+    <Button
+        android:id="@+id/generateButtonId"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate"/>
+    <LinearLayout
+        android:id="@+id/playerinput"
+        android:layout_marginTop="150dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:visibility="invisible"
+        android:background="@color/colorAsh"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"/>
+        <EditText
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"/>
+        <EditText
+            android:id="@+id/teamtext"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"/>
+        <Button
+            android:id="@+id/inputOk"
+            android:layout_marginLeft="280dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
